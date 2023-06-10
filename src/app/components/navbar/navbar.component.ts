@@ -35,9 +35,8 @@ export class NavbarComponent {
 
   onSelect(place: string, index: number) {
     this.selectedPlace = place;
-    console.log('latitude: ', this.latitude[index]);
-    console.log('longitude: ', this.longitude[index]);
-
+    this.latitude[index];
+    this.longitude[index];
     this.places = [];
   }
 }
